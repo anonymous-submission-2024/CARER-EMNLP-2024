@@ -1,0 +1,268 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEA
+.idea/
+/data/
+# Data
+/data/mimic3/
+/log/
+# Baselines
+/baselines/
+/params_alt/
+/data_alt/
+
+
+./params_alt/diabetes_mimic4.pt
+./params_alt/h_mimic3.pt
+./params_alt/h_mimic4.pt
+./params_alt/diabetes_mimic3.pt
+./extract_bert_embedding.ipynb
+./test_parser.ipynb
+./data/mimic3/standard/test/note_x_bert.npz
+./data/mimic3/standard/test/note_attention_mask.npz
+./data/mimic3/standard/test/note_x.npz
+./data/mimic3/standard/train/note_x_bert.npz
+./data/mimic3/standard/train/note_attention_mask.npz
+./data/mimic3/standard/train/note_x.npz
+./data/mimic3/standard/valid/note_x_bert.npz
+./data/mimic3/standard/valid/note_attention_mask.npz
+./data/mimic3/standard/valid/note_x.npz
+./data/mimic3/parsed/patient_note.pkl
+./data/mimic3/raw/INPUTEVENTS_CV.csv.gz
+./data/mimic3/raw/DATETIMEEVENTS.csv.gz
+./data/mimic3/raw/PRESCRIPTIONS.csv.gz
+./data/mimic3/raw/INPUTEVENTS_MV.csv.gz
+./data/mimic3/raw/CHARTEVENTS.csv.gz
+./data/mimic3/raw/NOTEEVENTS.csv.gz
+./data/mimic3/raw/LABEVENTS.csv.gz
+./data/mimic3/raw/OUTPUTEVENTS.csv.gz
+./data/mimic3/encoded/note_encoded.pkl
+./data/primekg.tab
+./data/params/mimic3/hypertension/best_bert_1.pt
+./data/params/mimic3/diabetes/best_bert_1.pt
+./data/params/mimic3/h/best_bert_1.pt
+./data/params/mimic4/diabetes/diabetes_mimic4.pt
+./data/primekg_disease_feature.tab
+./data/icd_embeddings.pickle
+./data/params_temp/mimic3/diabetes/best_bert_1.pt
+./data/params_att_multitask/mimic3/h/best_bert_1.pt
+./data/params_add_att_2048/mimic3/h/best_bert_1.pt
+./data/params_multitask/mimic3/diabetes/best_bert_1.pt
+./data/params_nonote/mimic3/diabetes/best_bert_1.pt
+./data/mimic4/standard/test/neighbors.npz
+./data/mimic4/standard/train/neighbors.npz
+./data/mimic4/standard/train/divided.npz
+./data/mimic4/standard/train/code_x.npz
+./data/mimic4/standard/valid/neighbors.npz
+./data/mimic4/raw/2.2/hosp/prescriptions.csv.gz
+./data/mimic4/raw/2.2/hosp/emar_detail.csv.gz
+./data/mimic4/raw/2.2/hosp/diagnoses_icd.csv.gz
+./data/mimic4/raw/2.2/hosp/transfers.csv.gz
+./data/mimic4/raw/2.2/hosp/omr.csv.gz
+./data/mimic4/raw/2.2/hosp/emar.csv.gz
+./data/mimic4/raw/2.2/hosp/pharmacy.csv.gz
+./data/mimic4/raw/2.2/hosp/poe.csv.gz
+./data/mimic4/raw/2.2/hosp/microbiologyevents.csv.gz
+./data/mimic4/raw/2.2/hosp/labevents.csv.gz
+./data/mimic4/raw/2.2/hosp/admissions.csv.gz
+./data/mimic4/raw/2.2/hosp/poe_detail.csv.gz
+./data/mimic4/raw/2.2/icu/procedureevents.csv.gz
+./data/mimic4/raw/2.2/icu/datetimeevents.csv.gz
+./data/mimic4/raw/2.2/icu/outputevents.csv.gz
+./data/mimic4/raw/2.2/icu/chartevents.csv.gz
+./data/mimic4/raw/2.2/icu/inputevents.csv.gz
+./data/mimic4/raw/2.2/icu/ingredientevents.csv.gz
+./data/params_add_att/mimic3/hypertension/best_bert_1.pt
+./data/params_add_att/mimic3/diabetes/best_bert_1.pt
+./data/params_add_att/mimic3/h/best_bert_1.pt
+./params_alt/diabetes_mimic4.pt
+./params_alt/h_mimic3.pt
+./params_alt/h_mimic4.pt
+./params_alt/diabetes_mimic3.pt
+./extract_bert_embedding.ipynb
+./test_parser.ipynb
+./data/mimic3/standard/test/note_x_bert.npz
+./data/mimic3/standard/test/note_attention_mask.npz
+./data/mimic3/standard/test/note_x.npz
+./data/mimic3/standard/train/note_x_bert.npz
+./data/mimic3/standard/train/note_attention_mask.npz
+./data/mimic3/standard/train/note_x.npz
+./data/mimic3/standard/valid/note_x_bert.npz
+./data/mimic3/standard/valid/note_attention_mask.npz
+./data/mimic3/standard/valid/note_x.npz
+./data/mimic3/parsed/patient_note.pkl
+./data/mimic3/raw/INPUTEVENTS_CV.csv.gz
+./data/mimic3/raw/DATETIMEEVENTS.csv.gz
+./data/mimic3/raw/PRESCRIPTIONS.csv.gz
+./data/mimic3/raw/INPUTEVENTS_MV.csv.gz
+./data/mimic3/raw/CHARTEVENTS.csv.gz
+./data/mimic3/raw/NOTEEVENTS.csv.gz
+./data/mimic3/raw/LABEVENTS.csv.gz
+./data/mimic3/raw/OUTPUTEVENTS.csv.gz
+./data/mimic3/encoded/note_encoded.pkl
+./data/primekg.tab
+./data/params/mimic3/hypertension/best_bert_1.pt
+./data/params/mimic3/diabetes/best_bert_1.pt
+./data/params/mimic3/h/best_bert_1.pt
+./data/params/mimic4/diabetes/diabetes_mimic4.pt
+./data/primekg_disease_feature.tab
+./data/icd_embeddings.pickle
+./data/params_temp/mimic3/diabetes/best_bert_1.pt
+./data/params_att_multitask/mimic3/h/best_bert_1.pt
+./data/params_add_att_2048/mimic3/h/best_bert_1.pt
+./data/params_multitask/mimic3/diabetes/best_bert_1.pt
+./data/params_nonote/mimic3/diabetes/best_bert_1.pt
+./data/mimic4/standard/test/neighbors.npz
+./data/mimic4/standard/train/neighbors.npz
+./data/mimic4/standard/train/divided.npz
+./data/mimic4/standard/train/code_x.npz
+./data/mimic4/standard/valid/neighbors.npz
+./data/mimic4/raw/2.2/hosp/prescriptions.csv.gz
+./data/mimic4/raw/2.2/hosp/emar_detail.csv.gz
+./data/mimic4/raw/2.2/hosp/diagnoses_icd.csv.gz
+./data/mimic4/raw/2.2/hosp/transfers.csv.gz
+./data/mimic4/raw/2.2/hosp/omr.csv.gz
+./data/mimic4/raw/2.2/hosp/emar.csv.gz
+./data/mimic4/raw/2.2/hosp/pharmacy.csv.gz
+./data/mimic4/raw/2.2/hosp/poe.csv.gz
+./data/mimic4/raw/2.2/hosp/microbiologyevents.csv.gz
+./data/mimic4/raw/2.2/hosp/labevents.csv.gz
+./data/mimic4/raw/2.2/hosp/admissions.csv.gz
+./data/mimic4/raw/2.2/hosp/poe_detail.csv.gz
+./data/mimic4/raw/2.2/icu/procedureevents.csv.gz
+./data/mimic4/raw/2.2/icu/datetimeevents.csv.gz
+./data/mimic4/raw/2.2/icu/outputevents.csv.gz
+./data/mimic4/raw/2.2/icu/chartevents.csv.gz
+./data/mimic4/raw/2.2/icu/inputevents.csv.gz
+./data/mimic4/raw/2.2/icu/ingredientevents.csv.gz
+./data/params_add_att/mimic3/hypertension/best_bert_1.pt
+./data/params_add_att/mimic3/diabetes/best_bert_1.pt
+./data/params_add_att/mimic3/h/best_bert_1.pt
